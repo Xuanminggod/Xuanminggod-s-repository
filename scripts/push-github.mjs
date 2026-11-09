@@ -18,9 +18,10 @@ const dryRun = process.argv.includes('--dry-run')
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN
 
 /** 推上去的东西：源码 + 文档 + 打包信息，不含运行期产物和内部草稿 */
-const INCLUDE_DIRS = ['lib', 'locale', 'test', 'scripts']
+const INCLUDE_DIRS = ['lib', 'locale', 'test', 'scripts', 'screenshots']
 const INCLUDE_FILES = [
   'package.json',
+  'screenshots.json',
   'cordis.patch.yml',
   'client.js',
   'icon.svg',
