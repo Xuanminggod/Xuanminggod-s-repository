@@ -1,0 +1,48 @@
+{
+  "name": "dsh-bili-share",
+  "version": "0.3.0",
+  "description": "Share Bilibili videos of chosen categories to QQ groups or friends on a randomized schedule, with optional AI-written blurbs and a settings panel.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "client.js",
+    "locale",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "bilibili",
+    "qq",
+    "onebot",
+    "share"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xuanminggod/Xuanminggod-s-repository.git"
+  },
+  "homepage": "https://github.com/Xuanminggod/Xuanminggod-s-repository",
+  "bugs": {
+    "url": "https://github.com/Xuanminggod/Xuanminggod-s-repository/issues"
+  }
+}
