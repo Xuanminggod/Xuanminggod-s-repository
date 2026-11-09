@@ -1,0 +1,19 @@
+# 提交到 awesome-dsh-plugin 的条目模板。
+#
+# 用法：
+#   1. 把本目录推到一个公开 GitHub 仓库，仓库加 topic `dsh-plugin`，等满 1 天；
+#   2. fork `awesome-dsh-plugin/awesome-dsh-plugin`；
+#   3. 新建文件 `data/plugins/<owner>__<repo>.yml`，内容就是下面去掉注释后的部分
+#      （文件名用 `__` 连接 owner 和 repo，不要带 .git）；
+#   4. 提 PR，只加这一个文件。CI 会查 dsh.bundle / 仓库年龄 / 格式。
+#
+# 注意：description 里的每一句都会被拿去对代码，不要写没有的功能。
+# 含 ": " 的描述必须加引号。icon 必须是 GitHub 托管的位图（png/jpg/webp，约 96px），
+# SVG 会被拒——本包的 icon.svg 不能直接当 icon 用，需要另存一张 png。
+
+url: https://github.com/Xuanminggod/Xuanminggod-s-repository
+name: Xuanminggod/Xuanminggod-s-repository
+category: notify
+description:
+  en: Shares Bilibili videos of chosen categories to QQ groups or friends on a randomized schedule, with per-recipient dedupe, quiet hours and an optional AI-written blurb.
+  zh: 按分区或关键词从 B 站挑公开视频，在不固定的时间点发到白名单 QQ 群或好友，带去重、安静时段与可选 AI 推荐语。
