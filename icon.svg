@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Bilibili video share">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00AEEC"/>
+      <stop offset="1" stop-color="#FB7299"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="236" height="236" rx="58" fill="url(#bg)"/>
+  <path d="M66 96c0-13.3 10.7-24 24-24h76c13.3 0 24 10.7 24 24v68c0 13.3-10.7 24-24 24H90c-13.3 0-24-10.7-24-24z" fill="#fff" fill-opacity="0.16"/>
+  <path d="M109 97.6c0-4.9 5.4-7.9 9.6-5.3l44.3 27.1c4 2.5 4 8.4 0 10.9l-44.3 27.1c-4.2 2.6-9.6-.4-9.6-5.3z" fill="#fff"/>
+  <path d="M150 196.5c-6.6 8.6-17 14.1-28.7 14.1-11.6 0-22-5.5-28.6-14" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="181" cy="86" r="13" fill="#fff"/>
+  <circle cx="181" cy="86" r="5.5" fill="#FB7299"/>
+</svg>
