@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# 运行期产生的文件不属于仓库
+state.json
+state.json.corrupt-*
+config.json
+apply-report.json
+last-ai.json
