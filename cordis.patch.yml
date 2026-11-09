@@ -1,0 +1,4 @@
+- insert:
+    - id: bili-share
+      name: dsh-bili-share
+      config: {}
